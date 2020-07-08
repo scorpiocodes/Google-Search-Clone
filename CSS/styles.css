@@ -1,3 +1,15 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+header {
+    text-align: right;
+}
+
+header a {
+    margin-left: 10px;
+}
+
 img {
     display: block;
     width: 300px;
@@ -22,7 +34,7 @@ input[type='text']:hover {
 }
 
 
-input[type='submit'] {
+button , input[type='submit'] {
     margin-top: 20px;
     margin-left: 10px;
     padding: 10px;

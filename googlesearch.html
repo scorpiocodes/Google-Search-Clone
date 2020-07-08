@@ -9,12 +9,17 @@
 </head>
 
 <body>
+  <header>
+    <a href="imagesearch.html">Image Search</a>
+    <a href="advancedsearch.html">Advanced Search</a>
+  </header>
   <div>
     <img src="images/logo.png" alt="google logo" /> <br />
     <form>
-      <input type="text" name="q"/><br />
-      <input type="submit" formaction="https://www.google.com/search" value="Google Search"/>
-      <input type="submit" formaction="http://google.com/search?btnI=I%27m+Feeling+Lucky&q=%s&sourceid=navclient" value="I'm Feeling Lucky"/>
+      <input type="text" name="q" /><br />
+      <input type="submit" name="btnK" formaction="https://www.google.com/search" value="Google Search" />
+      <input type="submit" name="btnI" formaction="http://google.com/search?q=%s&btnI=I%27m+Feeling+Lucky"
+        value="I'm Feeling Lucky" />
     </form>
   </div>
 </body>

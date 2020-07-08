@@ -1,0 +1,57 @@
+body {
+    margin: 0; padding: 0;
+    font-family: arial,sans-serif;
+}
+
+header {
+    background-color: #f1f1f1;
+    height: 75px;
+}
+
+header img {
+    text-align: center;
+    padding: 5px;
+}
+
+header div {
+    text-align: right;
+}
+
+header a {
+    padding-left: 10px;
+}
+
+p {
+    color: #d93025;
+    font-weight: 400;
+    font-size: larger;
+    margin: 25px 35px;
+}
+
+hr {
+    border: 1px solid lightgray;
+}
+
+table {
+    text-align: left;
+    margin: 30px;
+}
+
+table td {
+    padding: 10px;
+}
+
+input[type="text"] {
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
